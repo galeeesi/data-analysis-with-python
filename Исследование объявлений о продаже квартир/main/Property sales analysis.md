@@ -3423,20 +3423,7 @@ display(table_for_corr.head())
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3515,7 +3502,7 @@ display(table_for_corr.head())
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 Как видно из таблицы корреляции last_price с остальными компонентами, дата размещения - будь то день недели, месяц или год - не влияет на общую стоимость. Коэффициент корреляции минимален и стремится к 0, не строю графики для этих категорий. В таблице также видно, что самая большая корреляция наблюдается с общей площадью.   
@@ -3635,20 +3622,7 @@ print('Всего парков ',sq_meters_analysis['count'].sum(),' из 23699'
 ```
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3715,7 +3689,7 @@ print('Всего парков ',sq_meters_analysis['count'].sum(),' из 23699'
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
     Всего парков  23699  из 23699
@@ -3739,20 +3713,7 @@ print(f'В регионе {min_price_region} самая низкая стоим�
 ```
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3819,7 +3780,7 @@ print(f'В регионе {min_price_region} самая низкая стоим�
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
     В регионе Санкт-Петербург самая высокая стоимость квадратного метра 114849.01
@@ -3840,20 +3801,6 @@ plt.show()
 ```
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3920,7 +3867,7 @@ plt.show()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
